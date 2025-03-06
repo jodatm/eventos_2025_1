@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class AreaCalc {
+    public static void main(String[] args) {
+        Scanner x = new Scanner(System.in);
+        System.out.println("1. Cuadrado  2. Rectangulo  3. Circulo");
+        int o = x.nextInt();
+        if (o == 1) {
+            System.out.println("Lado?");
+            double l = x.nextDouble();
+            System.out.println("Área: " + l * l);
+        } else if (o == 2) {
+            System.out.println("Base?");
+            double b = x.nextDouble();
+            System.out.println("Altura?");
+            double h = x.nextDouble();
+            System.out.println("Área: " + b * h);
+        } else if (o == 3) {
+            System.out.println("Radio?");
+            double r = x.nextDouble();
+            System.out.println("Área: " + 3.1416 * r * r);
+        } else {
+            System.out.println("Opción no válida");
+        }
+        x.close();
+    }
+}
