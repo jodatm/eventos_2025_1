@@ -1,0 +1,6 @@
+gato,cat,gate
+perro,dog,perre
+casa,house,case
+raton,mouse,rate
+carro,car,carre
+silla,chair,sille
